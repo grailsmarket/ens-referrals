@@ -21,7 +21,7 @@ contract ReferralsTest is Test {
     IBaseRegistrar constant BASE_REGISTRAR = IBaseRegistrar(0x57f1887a8BF19b14fC0dF6Fd9B2acc9Af147eA85);
 
     string constant TEST_LEGACY_LABEL = "shrugs"; // registered via LegacyEthRegistrarController
-    string constant TEST_WRAPPED_LABEL = "scotttaylor"; // registered via WrappedEthRegistrarController
+    string constant TEST_WRAPPED_LABEL = "cowfish"; // registered via WrappedEthRegistrarController
     string constant TEST_UNWRAPPED_LABEL = "daonotes"; // registered via UnwrappedEthRegistrarController
 
     uint256 constant TEST_DURATION = 365 days;
